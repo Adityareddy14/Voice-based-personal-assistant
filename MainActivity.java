@@ -263,13 +263,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.bookmyshow.com"));
             startActivity(intent);
         }
-        else if (result_message.indexOf("ayya baboi") != -1){
-            speak("amma bhaaboi");
-        }
-        else if (result_message.indexOf("jai lokesh") != -1){
-            speak("theeeeyyagundhi");
-        }
-
+  
 
     }
 
